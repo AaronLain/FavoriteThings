@@ -44,7 +44,37 @@ namespace FavoriteThings.Dinosaurs
             }
         }
 
-       
+       public void TDemo(Tyrannosaurus c)
+        {
+            do
+            {
+                c.DressUp("Bunny Ears");
+
+                // output reflects change in private field i.e he's too mad to wear anything else!
+                c.DressUp("Party Hat");
+
+                // now we sing to soothe the angry dino
+                c.Sing();
+
+                // the soothed dino is now ready to wear the pary hat!
+                c.DressUp("Party Hat");
+
+                // let's sing again to sooth the dino once more
+                c.Sing();
+
+                // now we'll sing to him again -- but it won't have the same effect
+                c.Sing();
+
+                Console.WriteLine("Continue?");
+
+                var input = Console.ReadLine();
+
+                var cont = input?.ToLower();
+
+                if ((cont == "y") || (cont == "n"))
+                    break;
+            } while (true);
+        }
     
     }
 }
