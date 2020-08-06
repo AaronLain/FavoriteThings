@@ -9,6 +9,7 @@ namespace FavoriteThings
         static void Main(string[] args)
         {
             string input;
+
             // T-Rex -- name and age
             var terrance = new Tyrannosaurus("Terrance", 67000000);
             var chauncey = new Tyrannosaurus("Chauncey", 66000345);
@@ -25,8 +26,7 @@ namespace FavoriteThings
             var ashley = new Allosaurus("Ashley", 146001230, "Teal");
             var charlotte = new Allosaurus("Charlotte", 148090123, "Puce");
 
-            
-            
+            // Console App Logic
             Console.WriteLine("Pick a dino to demo:");
             Console.WriteLine("1: Tyrannosaurus");
             Console.WriteLine("2: Charonosaurus");
