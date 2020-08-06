@@ -49,24 +49,25 @@ namespace FavoriteThings.Dinosaurs
 
         public void ADemo(Allosaurus c)
         {
-           // Time to paint our Allosaurus a different color
-           c.Paint("Red");
+            // Time to paint our Allosaurus a different color
+            c.Paint("Red");
 
-           // output reflects change in private field i.e they too mad to get painted again!
-           c.Paint("Green");
+            // output reflects change in private field i.e they too mad to get painted again!
+            c.Paint("Green");
 
-           // now we sing to soothe the angry dino
-           c.Sing();
+            // now we sing to soothe the angry dino
+            c.Sing();
 
-           // the soothed dino is now ready for a fresh coat of paint!
-           c.Paint("Red");
+            // the soothed dino is now ready for a fresh coat of paint!
+            c.Paint("Red");
 
-           // let's sing again to sooth the dino once more
-           c.Sing();
+            // let's sing again to sooth the dino once more
+            c.Sing();
 
-           // now we'll sing to him again -- but it won't have the same effect
-           c.Sing();
+            // now we'll sing to him again -- but it won't have the same effect
+            c.Sing();
 
+            Console.ReadLine();
         }
     }
 }

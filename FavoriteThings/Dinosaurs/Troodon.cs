@@ -50,24 +50,25 @@ namespace FavoriteThings.Dinosaurs
         public void TrDemo(Troodon c)
         {
            
-           // Time to convince our Troodon of the benefits of Agrarianism
-           c.Argue(EconomicTheories.Agrarianism);
+            // Time to convince our Troodon of the benefits of Agrarianism
+            c.Argue(EconomicTheories.Agrarianism);
 
-           // output reflects change in private field i.e he's too mad about Agrarianism to listen!
-           c.Argue(EconomicTheories.Feudalism);
+            // output reflects change in private field i.e he's too mad about Agrarianism to listen!
+            c.Argue(EconomicTheories.Feudalism);
 
-           // now we sing to soothe the angry dino
-           c.Sing();
+            // now we sing to soothe the angry dino
+            c.Sing();
 
-           // the soothed dino is now ready to hear us praise Feudalism!
-           c.Argue(EconomicTheories.Feudalism);
+            // the soothed dino is now ready to hear us praise Feudalism!
+            c.Argue(EconomicTheories.Feudalism);
 
-           // let's sing again to sooth the dino once more
-           c.Sing();
+            // let's sing again to sooth the dino once more
+            c.Sing();
 
-           // now we'll sing to him again -- but it won't have the same effect
-           c.Sing();
+            // now we'll sing to him again -- but it won't have the same effect
+            c.Sing();
 
+            Console.ReadLine();
         }
 
         public enum EconomicTheories

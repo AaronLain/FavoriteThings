@@ -40,31 +40,32 @@ namespace FavoriteThings.Dinosaurs
             }
             else
             {
-                Console.WriteLine($"{Name} just stares blankly at you. \r\n \r\nThey've been alive {Age} years and still don't have time for your crap.");
+                Console.WriteLine($"{Name} just stares blankly at you. \r\n \r\nThey've been alive {Age} years and still don't have time for your crap. \r\n");
             }
         }
 
        public void TDemo(Tyrannosaurus c)
         {
         
-           // Put bunny ears on our T-Rex
-           c.DressUp("Bunny Ears");
+            // Put bunny ears on our T-Rex
+            c.DressUp("Bunny Ears");
 
-           // output reflects change in private field i.e he's too mad to wear anything else!
-           c.DressUp("Party Hat");
+            // output reflects change in private field i.e he's too mad to wear anything else!
+            c.DressUp("Party Hat");
 
-           // now we sing to soothe the angry dino
-           c.Sing();
+            // now we sing to soothe the angry dino
+            c.Sing();
 
-           // the soothed dino is now ready to wear the party hat!
-           c.DressUp("Party Hat");
+            // the soothed dino is now ready to wear the party hat!
+            c.DressUp("Party Hat");
 
-           // let's sing again to soothe the dino once more
-           c.Sing();
+            // let's sing again to soothe the dino once more
+            c.Sing();
 
-           // now we'll sing to him again -- but it won't have the same effect
-           c.Sing();
+            // now we'll sing to him again -- but it won't have the same effect
+            c.Sing();
 
+            Console.ReadLine();
         }
     
     }
