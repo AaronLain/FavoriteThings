@@ -25,6 +25,7 @@ namespace FavoriteThings
             var ashley = new Allosaurus("Ashley", 146001230, "Teal");
             var charlotte = new Allosaurus("Charlotte", 148090123, "Puce");
 
+
             do
             {
                 terrance.DressUp("Bunny Ears");
