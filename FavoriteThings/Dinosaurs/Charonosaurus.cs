@@ -50,34 +50,24 @@ namespace FavoriteThings.Dinosaurs
 
         public void CDemo(Charonosaurus c)
         {
-            do
-            {
-                c.Insult("Butthead");
+           // Now we call our Charonosaurus a butthead 
+           c.Insult("Butthead");
 
-                // output reflects change in private field i.e he's too mad to wear anything else!
-                c.Insult("Buttface");
+           // output reflects change in private field i.e he's too mad to even be insulted!
+           c.Insult("Buttface");
 
-                // now we sing to soothe the angry dino
-                c.Sing();
+           // now we sing to soothe the angry dino
+           c.Sing();
 
-                // the soothed dino is now ready to wear the pary hat!
-                c.Insult("ButtButt");
+           // the soothed dino is now ready to be insulted again!
+           c.Insult("ButtButt");
 
-                // let's sing again to sooth the dino once more
-                c.Sing();
+           // let's sing again to soothe the dino once more
+           c.Sing();
 
-                // now we'll sing to him again -- but it won't have the same effect
-                c.Sing();
+           // now we'll sing to him again -- but it won't have the same effect
+           c.Sing();
 
-                Console.WriteLine("Continue?");
-
-                var input = Console.ReadLine();
-
-                var cont = input?.ToLower();
-
-                if ((cont == "y") || (cont == "n"))
-                    break;
-            } while (true);
         }
     }
 }
